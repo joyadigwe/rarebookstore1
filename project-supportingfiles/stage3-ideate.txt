@@ -1,0 +1,4 @@
+Name of prototype: 'Bookstore Original' and 'Bookstore Secondary'
+Conducted a brainstorming session with Prevailer where we went over ideas and discussed different elements
+ of the website including a sign in page, adding essential functions like adding, deleting, and updating books, 
+ and incorporating links and images

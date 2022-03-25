@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN</title>
+    <link rel="stylesheet" href="style2.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Arizonia&family=Concert+One&family=EB+Garamond:wght@500&family=Playfair+Display&family=Poppins&family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+<body>
+  <h1>Welcome To Rare Bookstore's Inventory</h1>
+  <!--sign in information for managers-->
+  <p>For Managers</p>
+  <div class="man1">
+  <!--"return validateForm() is the only way to have the sign in not continue to the next page if you input the incorrect information"-->
+  <form name="myForm" onsubmit="return validateForm()" action="index-manager.html" method="get">
+  Email: <input type="text" name="email" id="email">
+  Password: <input type="text" name="password" id="password">
+  <input id="s1" type="submit" value="Submit">
+  </form>
+</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<!--sign in information for the employees-->
+<p>For Employees</p>
+  <div class="man2">
+  <form name="myForm2" onsubmit="return validateForm2()" action="index-employee.html" method="get">
+  Email: <input type="text" name="email" id="email2">
+  Password: <input type="text" name="password" id="password2">
+  <input id="s1" type="submit" value="Submit">
+  </form><br>
+</div>&nbsp;&nbsp;
+
+<!--image of baby and mother that displays at the bottom center of screen-->
+<img class="center" src="welcominglibrary.jpg" width="700" height="380">
+   
+</body>
+</html>

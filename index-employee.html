@@ -1,0 +1,163 @@
+<!--
+  Managers should be able to add, update, and delete
+  User should be able to view a list of the books
+  Search through list to find books by title (search bar)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Arizonia&family=Concert+One&family=EB+Garamond:wght@500&family=Playfair+Display&family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="index.js"></script>
+</head>
+<body>
+<!--button to sign out, will take you back to sign in page-->
+<a href="sign-in.html" class="signbtn">Sign Out</a>
+
+<h1 class="inventory">Welcome To Rare Bookstore's Inventory</h1>
+<h2 class="added">TO ADD A BOOK</h2>
+
+<!--input texts to allow you to add a book-->
+  <div class="tools">
+  Title: <input type="text" id="title" name="title" placeholder="Enter title"> 
+  Author: <input type="text" id="author" name="author" placeholder="Enter author">
+  Genre: <input type="text" id="genre" name="genre" placeholder="Enter genre">
+  Price: <input type="text" id="price" name="price" placeholder="Enter price">
+  Condition: <input type="text" id="condition" name="condition" placeholder="Enter condition"><br><br>
+  </div>
+
+  <button class="addbtn1" onclick="submitBook2();">Add Book To Inventory</button>
+ <!-- </div>
+  
+</div>-->
+<h3 class=added>BOOK LIST</h3>
+<!--search bar that allows you to search for a book by title-->
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for title.." title="Type in a name">
+
+<!--table for booklist-->
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;" id="title">Title</th>
+    <th style="width:60%;" id="author">Author</th>
+    <th style="width:60%;" id="genre">Genre</th>
+    <th style="width:60%;" id="price">Price</th>
+    <th style="width:60%;" id="condition">Condition</th>
+
+  </tr>
+  <tr>
+    <td>Bossypants</td>
+    <td>Tina Fey</td>
+    <td>Horror</td>
+    <td>$12</td>
+    <td>5 stars</td>
+  </tr>
+
+  <tr>
+    <td>You'll Grow Out of It</td>
+    <td>Jessi Klein</td>
+    <td>Comedy</td>
+    <td>$14</td>
+    <td>3 stars</td>
+  </tr>
+  <tr>
+    <td>You're Not Doing It Right</td>
+    <td>Michael Ian Black</td>
+    <td>Comedy</td>
+    <td>$18</td>
+    <td>2 stars</td>
+  </tr>
+  <tr>
+    <td>Zombie Spaceship Wasteland</td>
+    <td>Patton Oswalt</td>
+    <td>Comedy</td>
+    <td>$14</td>
+    <td>1 star</td>
+  </tr>
+  <tr>
+    <td>Big Trouble</td>
+    <td>Dave Berry</td>
+    <td>Comedy</td>
+    <td>$15</td>
+    <td>5 stars</td>
+  </tr>
+  <tr>
+    <td>Oath of Office</td>
+    <td>Marc Cameron</td>
+    <td>Action/Adventure</td>
+    <td>$33</td>
+    <td>4 stars</td>
+  </tr>
+  <tr>
+    <td>Black Sun</td>
+    <td>Owen Matthews</td>
+    <td>Action/Adventure</td>
+    <td>$22</td>
+    <td>1 star</td>
+  </tr>
+  <tr>
+    <td>Origin</td>
+    <td>Dan Brown</td>
+    <td>Action/Adventure</td>
+    <td>$5</td>
+    <td>5 stars</td>
+  </tr>
+  <tr>
+    <td>The Paris Apartment</td>
+    <td>Lucy Foley</td>
+    <td>Detective/Mystery</td>
+    <td>$10</td>
+    <td>3 stars</td>
+  </tr>
+  <tr>
+    <td>The Maid</td>
+    <td>Nita Prose</td>
+    <td>Detective/Mystery</td>
+    <td>$11</td>
+    <td>2 stars</td>
+  </tr>
+  <tr>
+    <td>The Moving Finger</td>
+    <td>Agatha Christie</td>
+    <td>Detective/Mystery</td>
+    <td>$25</td>
+    <td>5 stars</td>
+  </tr>
+  <tr>
+    <td>Seven Days In June</td>
+    <td>Tia Williams</td>
+    <td>Romance</td>
+    <td>$30</td>
+    <td>3 stars</td>
+  </tr>
+  <tr>
+    <td>Love At First</td>
+    <td>Kate Kayborn</td>
+    <td>Romance</td>
+    <td>$11</td>
+    <td>3 stars</td>
+  </tr>
+  <tr>
+    <td>The Paris Apartment</td>
+    <td>Lucy Foley</td>
+    <td>Detective/Mystery</td>
+    <td>$10</td>
+    <td>3 stars</td>
+  </tr>
+  <tr>
+    <td>A Study Of History</td>
+    <td>Arnold J. Toynbee</td>
+    <td>History</td>
+    <td>$50</td>
+    <td>3 stars</td>
+  </tr>
+</table>
+
+
+
+
+</body>
+</html>

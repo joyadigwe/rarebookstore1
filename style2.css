@@ -1,0 +1,58 @@
+/* styling for employee page layout
+no delete buttons */
+body {
+     background-color: rgb(121, 197, 223);
+ 
+ } 
+
+h1 {
+        text-align: center;
+        color: white;
+        font-size:large;
+        vertical-align: middle;
+        font-family: 'Concert One';
+        font-size: 60px;
+ }
+
+ #man {
+    text-align: center;
+    color: black;
+    vertical-align: middle;
+    font-family: 'Concert One';
+    font-size: 30px;
+ }
+
+ .man1, p, .man2 {
+    color: white;
+    font-size:large;
+    vertical-align: middle;
+    font-family: 'Concert One';
+    font-size: 24px;
+ }
+
+ .man2 {
+    color: white;
+    font-size:large;
+    vertical-align: middle;
+    font-family: 'Concert One';
+    font-size: 24px;
+ }
+
+ .center {
+     display:block;
+     margin-left: auto;
+     margin-right: auto;
+    width: 50%;
+     border-radius: 70%; 
+ }
+
+ #s1  {
+   color: rgb(255, 255, 255);
+background-color: rgb(45, 149, 184);
+font-size: 18px;
+font-family:'Concert One';
+border-radius: 5px;
+text-decoration: none;
+border-color: white;
+}
+ 
