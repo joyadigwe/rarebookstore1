@@ -1,5 +1,0 @@
-﻿STAGE 2- DEFINE
-Create an online system that is accessible via laptop and mobile device that enables bookstore employees to add,
-delete, and update books for their inventory. Only managers can add, delete, and update books from the system; 
-employees can add and update books. Define the system by categorizing the books by genre, century, author, 
-and condition (rate by stars). Information about the books should include availability, condition, location, and price.

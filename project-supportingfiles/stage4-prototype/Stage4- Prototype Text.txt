@@ -1,6 +1,0 @@
-﻿My paper prototypes included “Bookstore Original” and “Bookstore Secondary”; both prototypes include a place to create
-an account, sign in, and different page layouts for the different roles (managers and employees)
-
-The only difference is the first home page: for “Bookstore Secondary” the sign in and create an account buttons 
-for both profiles are on the home page, for “Bookstore Original”, only “create an account” button is on the 
-first page and I included another button that takes you to another page to access the sign in page and sign in

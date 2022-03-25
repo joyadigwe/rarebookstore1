@@ -1,4 +1,0 @@
-﻿After testing the product and receiving feedback, I decided to move the “Sign In” section it’s own sign-in html page 
-instead of having it on the Create An Account page to decrease confusion and clutter on one page; proceeded with "Bookstore Original"
-A user would first test the functions by going through the Create An Account home page using their 
-credentials and continue on based on the user’s profile
