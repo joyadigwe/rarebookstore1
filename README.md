@@ -16,20 +16,16 @@ Employee Login Info
 Email: employee@gmail.com
 Password: employee98
 
-"Project-Supporting" files folder contains the Stage 1- Empathise text, Stage 2-Define text, Stage3-ideate text, stage 4- prototype folder; Stage5-Test text
+index.html is the sign-in page
 
-The Stage 4 Prototype Folder contains screenshots of the HTML pages with CSS; the stage4-prototype.html contains a link to access all the images on one google doc
+index-manager.html is the page layout for managers after they sign in using the sign in for manager
 
-index.html is the main HTML page with the create account credentials;
+index-employee.html is the page layout for the employees after they sign in using the sign in for employee
 
-sign-in.html is the sign in page 
+index.js is my Javascript
 
-index-manager.html is the page layout for managers after they click "Create Account" or sign in using the sign in for manager;
+style.css is the CSS for the manager page layout
 
-index-employee.html is the page layout for the employees after they click "Create Account" or sign in using the sign in for employee;
+style2.css is the CSS for the employee page layout
 
-index.js is my Javascript;
-
-style.css is my CSS;
-
-welcominglibrary.jpg is an image used for the create an account home page and sign in page;
+welcominglibrary.jpg is an image used for the sign in page
