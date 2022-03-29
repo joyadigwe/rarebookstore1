@@ -7,7 +7,7 @@
 .added {
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     font-family:'Concert One';
 }
 
@@ -184,6 +184,11 @@ section {
     background-color: white;
   }
 
+  #myTable tr.header:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: lightslategrey;
+  }
+
 #delete {
     text-align: center;
     color: rgb(255, 255, 255);
@@ -244,3 +249,8 @@ section {
     font-size: large;
     font-family:'Concert One';
 }
+
+table tr:not(:first-child){
+        cursor: pointer;transition: all .25s ease-in-out;
+}
+table tr:not(:first-child):hover{background-color: #ddd;}

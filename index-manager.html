@@ -31,7 +31,7 @@
   Condition: <input type="text" id="condition" name="condition" placeholder="Enter condition"><br><br>
   </div>
 
-  <button class="addbtn1" onclick="submitBook()">Add Book To Inventory</button><br>
+  <button class="addbtn1" onclick="submitBook()">Add Book To Inventory</button>
 <h3 class=added>BOOK LIST</h3>
 <!--search bar that allows you to search for a book by title-->
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for title.." title="Type in a name">
@@ -40,11 +40,11 @@
 <!--table for booklist-->
 <table id="myTable">
   <tr class="header">
-    <th style="width:60%;" id="title">Title</th>
-    <th style="width:60%;" id="author">Author</th>
-    <th style="width:60%;" id="genre">Genre</th>
-    <th style="width:60%;" id="price">Price</th>
-    <th style="width:60%;" id="condition">Condition</th>
+    <th style="width:60%;" onclick="sortTable(0)">Title</th>
+    <th style="width:60%;" onclick="sortTable(1)">Author</th>
+    <th style="width:60%;">Genre</th>
+    <th style="width:60%;">Price</th>
+    <th style="width:60%;">Condition</th>
     <th style="width:60%;">Delete</th>
 
   </tr>
@@ -56,8 +56,7 @@
     <td>5 stars</td>
   <!--delete button that allows you to delete a book (a row from the table)-->
     <td><input type="button" value="Delete" id= "delete" onclick="deleteRow(this)"></td>
-
-  </tr>
+    </tr>
 
   <tr>
     <td>You'll Grow Out of It</td>
@@ -65,7 +64,7 @@
     <td>Comedy</td>
     <td>$14</td>
     <td>3 stars</td>
-    <td><input type="button" value="Delete" id= "delete" onclick="deleteRow(this)"></td>
+    <td><input type="button" value="Delete" id= "delete" onclick="deleteRow(this)">
   </tr>
   <tr>
     <td>You're Not Doing It Right</td>
