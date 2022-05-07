@@ -1,4 +1,4 @@
-#      projectphase1
+#      Rare Bookstore Website
 Employees at a rare bookstore need to be able to access a system where they can store the inventory for the store.
 The system should be accessible from a laptp or tablet.
 Employees should be able to add, update, and delete books from the system.
